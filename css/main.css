@@ -1,0 +1,1036 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain )
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+
+b,
+u,
+i,
+center,
+
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+
+fieldset,
+form,
+label,
+legend,
+
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+
+article,
+aside,
+canvas,
+details,
+embed,
+
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+
+time,
+mark,
+audio,
+video {
+
+    margin: 0;
+
+    padding: 0;
+
+    border: 0;
+
+    font-size: 100%;
+
+
+    vertical-align: baseline;
+}
+
+/* hTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+
+    display: block;
+}
+
+body {
+
+    line-height: 1;
+}
+
+ol,
+ul {
+
+    list-style: none;
+}
+
+blockquote,
+q {
+
+    quotes: none;
+}
+
+/* using css to create a basseline layout*/
+/* styling ellements using css */
+
+.imgbg {
+    background-image: url("http://motionjipe.com/wp-content/uploads/2021/02/background_image-2048x828.png");
+    background-size: cover;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
+
+}
+
+
+
+/* main box  model*/
+main {
+    width: 99%;
+    height: 30%;
+   
+    overflow: hidden;
+
+    margin: auto;
+}
+
+
+/*using css to define parameters for java mask*/
+.mask {
+    position: relative;
+    top: -32%;
+    left: 0;
+    right: 100px;
+    bottom: 0;
+
+
+    height: 130%;
+}
+
+#val {
+
+    height: 624px;
+    width: 100%;
+    y: 350%;
+
+}
+
+#dar {
+
+    height: 624px;
+    width: 100%;
+    y: 765%;
+
+}
+
+#cas {
+
+    height: 624px;
+    width: 100%;
+    y: 1110%;
+
+}
+
+#circle {
+
+    r: 8%;
+}
+
+
+
+/* colloring ellements  using css */
+
+html {
+    max-width: 1800px;
+    margin: 0%auto;
+    width: 90%;
+
+    overflow-x: hidden;
+    background-color: black;
+    color: whitesmoke;
+
+}
+
+
+
+/* using css to set sizing of text*/
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+h5 {
+    font-size: 1em;
+}
+
+h6 {
+    font-size: 10px;
+}
+
+
+
+
+
+
+/*using css to style nav */
+#logo{
+    width:13%;
+}
+.nav {
+
+    padding-bottom: 5%;
+
+}
+
+#nav {
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.menu-item {
+    padding-right: 45%;
+    padding-left: 45%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.menu-item:hover {
+    background-color: #D22525;
+}
+
+
+
+/* creating the grid system */
+
+main {
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+
+    grid-template-rows: 10% 15% 20% 1fr;
+}
+
+/*using css to style head */
+#index {
+
+    grid-column: 2 / span2;
+    grid-row: 1;
+
+}
+
+#banner {
+    padding: 10%;
+    width: 300px;
+
+
+}
+.top{width:309px;}
+
+.toph2 {
+
+    padding-top: 10%;
+}
+
+/*using css to style youtube spacing*/
+iframe {
+    height: 250px;
+    padding-top: 50px;
+}
+#frame{
+    width:100%;
+}
+
+/*using css to style teamsection spacing*/
+
+.ourteam {
+    padding-bottom: 10%;
+    margin: 0% auto;
+}
+
+p {
+
+
+    width: 60%;
+    padding-bottom: 20%;
+
+}
+
+
+/*using css to style photos spacing*/
+
+
+
+
+
+
+
+
+/* creating the grid system for index page*/
+
+.vid {
+
+    grid-column: 1 / 2;
+
+  
+}
+
+.banner {
+    color: white;
+
+    grid-column: 1 / 2;
+
+  
+
+}
+
+
+.instagram {
+
+
+    padding-top: 90px;
+}
+
+.photos {
+
+
+
+    grid-column: 3;
+
+
+
+}
+
+
+.team {
+    z-index: 2;
+
+    grid-column: 1 / 5;
+
+   
+
+}
+
+
+/* styling  footer*/
+footer {
+    color: whitesmoke;
+    z-index: 100;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.ft{
+    width:30%;
+}
+
+span {
+
+    grid-column: 1 / 4
+}
+
+
+/* positioning  footer in contact page*/
+
+
+.cpage {
+
+    height: 70%;
+    margin: 0%auto;
+    max-width: 1607px;
+}
+
+/* creating the grid system for contact page*/
+
+.container {
+
+    padding-top: 30%;
+    grid-column: 1 / 4;
+    grid-row: 1;
+}
+
+
+form {
+
+
+    grid-row: 2;
+    grid-column: 1 / 3;
+
+}
+
+.hear {
+    grid-column: 1 / 3;
+    grid-row: 1;
+
+
+
+}
+
+/* styling the contact sheet*/
+
+
+form {
+    background-color: #a0a0a036;
+    padding: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5px 30px 5px 30px 30px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 11px;
+    text-transform: uppercase;
+    outline: none;
+
+}
+
+#name {
+
+    grid-row: 1;
+
+    grid-column: 1 / 3;
+}
+
+#fname {
+    grid-row: 2;
+
+    grid-column: 1;
+}
+
+#lname {
+    grid-row: 2;
+
+    grid-column: 2;
+}
+
+
+#email {
+    grid-row: 4;
+
+    grid-column: 1 / 3;
+}
+
+#subj {
+    grid-row: 5;
+
+    grid-column: 1 / 3;
+}
+
+#subject {
+    grid-row: 6;
+
+    grid-column: 1 / 3;
+
+    border-radius: 10px;
+
+    margin-top: 3%;
+
+    background-color: #ffffffd2;
+
+
+}
+
+#submit {
+    grid-row: 7;
+    grid-column: 2;
+}
+
+/* styling the services page specically*/
+
+#services {
+    padding: 30%;
+}
+
+.space {
+    padding: 10%;
+    background-color: #ffffff28;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px
+}
+
+#services {
+
+    grid-row: 1;
+    grid-column: 1 / 5;
+
+
+}
+
+.videos {
+    grid-row: 2;
+    grid-column: 1 / 5;
+}
+
+.photoscollection {
+
+    grid-row: 5;
+    grid-column: 1 / 5;
+}
+
+#bookus {
+    width: 100%;
+    padding: 10px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #666;
+    color: #ddd;
+    font-size: 11px;
+    text-transform: uppercase;
+    outline: none;
+}
+
+/* styling the photos section of services page specically*/
+
+
+
+
+
+
+
+
+#scrl {
+    box-sizing: border-box;
+    transform: rotate(-90deg);
+}
+
+.photoscroll {
+
+    width: 250px;
+    height: 250px;
+
+
+
+    overflow-x: hidden;
+
+
+    transform: rotate(90deg);
+
+}
+
+
+/* styling the contact page  for tablette*/
+
+@media only screen and (max-width: 930px) and (min-width: 501px) {
+
+    form {
+
+        padding: 15%;
+    }
+
+    #submit {
+
+        grid-column: 1 / 3;
+
+
+    }
+
+    .container {
+        padding-top: 20%;
+        grid-column: 1 / 4;
+        grid-row: 1 / 1;
+        background-image: url("http://motionjipe.com/wp-content/uploads/2021/02/background_image-2048x828.png");
+        background-position: center;
+    }
+
+
+    .hear {
+        z-index: 1;
+    }
+
+
+
+
+}
+
+
+
+/* using media querys to style for pc */
+
+@media only screen and (min-width: 931px) {
+
+    /*using media querys to style head  for pc*/
+
+    #nav {
+
+        padding-bottom: 0%;
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto auto;
+    }
+
+
+    #snav {
+        display: flex;
+
+    }
+
+    .menu-item {
+        padding-right: 5%;
+        padding-left: 5%;
+        padding-top: 1%;
+        padding-bottom: 1%;
+
+
+
+    }
+
+    #logo {
+
+        width: 5%
+    }
+
+
+    a {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .menu-item:hover {
+        background-color: #D22525;
+    }
+
+    /* using media queries to styli  footer for pc*/
+    footer {
+        color: whitesmoke;
+        z-index: 100;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 100px;
+        grid-template-rows: 1fr 1fr 1fr;
+
+
+    }
+
+    span {
+
+        grid-column: 1 / 4
+    }
+
+    /* styling the contact page  for tablette*/
+
+    .html {
+
+        width: 100%
+    }
+
+    form {
+
+        padding: 15%;
+    }
+
+    #submit {
+
+        grid-column: 1 / 3;
+
+
+    }
+
+
+    .cpage {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 10% 15% 15% 1fr;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    .hear {
+        background-image: url("http://motionjipe.com/wp-content/uploads/2021/02/background_image-2048x828.png");
+        background-position: 1% 70%;
+        background-repeat: no-repeat;
+        padding-bottom: 37%;
+        grid-column: 1 / 7;
+        overflow-x: hidden;
+        overflow-y: hidden;
+
+    }
+
+    .container {
+        z-index: 2;
+        padding-top: 0%;
+        grid-column: 3 / 5;
+        grid-row: 1 / 3;
+
+
+    }
+
+
+    .hear {
+        z-index: 1;
+        padding-top: 15%;
+        padding-left: 3%;
+
+
+    }
+}
+
+
+/* styling the services page  for tablette*/
+
+@media only screen and (max-width: 930px) and (min-width: 499px) {
+
+
+    #services {
+        padding: 15%;
+    }
+
+    .photoscroll {
+
+        height: 300px;
+        width: 100%;
+        position: static;
+    }
+
+    .space {
+        padding-left: 15%;
+    }
+}
+
+/* styling the main page  for pc*/
+
+
+
+
+
+
+
+@media only screen and (min-width:930px) {
+
+
+
+
+    #frame {
+        
+
+        height: 400px;
+        width: 80%;
+    }
+
+
+
+    .main {
+
+        grid-template-columns: 1fr 10px 1fr 10px 1fr;
+    }
+
+    .videos {
+        grid-column: 3 / 3;
+        grid-row: 1 / 4;
+    }
+
+    .photoscollection {
+
+        grid-column: 5 / 5;
+        grid-row: 1 / 4;
+    }
+
+    #vid {
+        padding: 10%;
+        grid-column: 2 / 5;
+        grid-row: 1;
+    }
+
+    #banner {
+        padding: 20%;
+        padding-top: 50%;
+        grid-column: 1;
+        grid-row: 1 / 3;
+    }
+
+    .team {
+
+        grid-column: 1 / 5;
+        grid-row: 3 / 5;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20% 1fr 1fr;
+    }
+
+    .ourteam {
+        grid-column: 1 / 3;
+        grid-row: 1;
+        padding-top: 10%;
+    }
+
+    .jp {
+        grid-column: 1;
+        grid-row: 2;
+        padding-left: 20%;
+    }
+
+    .val {
+        grid-column: 2;
+        grid-row: 2;
+        padding-left: 20%;
+    }
+
+    .Darius {
+        grid-column: 1;
+        grid-row: 3;
+        padding-left: 20%;
+    }
+
+    .cass {
+        grid-column: 2;
+        grid-row: 3;
+        padding-left: 20%;
+    }
+
+    .foot {
+        position: absolute;
+        left: 0;
+        bottom: -150%;
+        width: 100%;
+
+    }
+
+    #frame {
+
+        height: 400px;
+        width: 80%;
+    }
+
+    /*using css to define parameters for java mask, i know the x y properties are unconventionnal but it was the only way to modify the position of the images within the svg*/
+
+
+    .mask {
+        position: relative;
+        top: 380px;
+        left: 15%;
+        right: 0;
+        bottom: 0;
+        width: 200%;
+        height: 100%;
+    }
+
+    #val {
+
+        height: 624px;
+        width: 309px;
+        x: 50%;
+        Y: -115%
+    }
+
+    #dar {
+
+        height: 624px;
+        width: 309px;
+        x: 0%;
+        Y: 320%
+    }
+
+    #cas {
+
+        height: 624px;
+        width: 309px;
+        x: 50%;
+        Y: 320%
+    }
+
+    #circle {
+
+        r: 9%;
+    }
+}
+
+@media only screen and (min-width:1410px) {
+    #dar {
+
+        height: 624px;
+        width: 309px;
+        x: 0%;
+        Y: 340%
+    }
+
+    #cas {
+
+        height: 624px;
+        width: 309px;
+        x: 50%;
+        Y: 340%
+    }
+}
+
+@media only screen and (min-width:1600px) {
+    #dar {
+
+        height: 624px;
+        width: 309px;
+        x: 0%;
+        Y: 360%
+    }
+
+    #cas {
+
+        height: 624px;
+        width: 309px;
+        x: 50%;
+        Y: 360%
+    }
+}
+
+@media only screen and (min-width:1720px) {
+    #dar {
+
+        height: 624px;
+        width: 309px;
+        x: 0%;
+        Y: 390%
+    }
+
+    #cas {
+
+        height: 624px;
+        width: 309px;
+        x: 50%;
+        Y: 390%
+    }
+
+    #val {
+
+        height: 624px;
+        width: 309px;
+        x: 50%;
+        Y: -105%
+    }
+}
+
+/* styling the main page  for tablette*/
+@media only screen and (max-width: 930px) and (min-width: 500px) {
+
+    .videos {
+        grid-column: 2;
+    }
+
+    .photoscollection {
+
+        grid-column: 2;
+
+    }
+
+    #vid {
+        padding: 10%;
+        grid-column: 2;
+    }
+
+    #banner {
+
+        grid-column: 2;
+
+    }
+
+    .team {
+        grid-column: 2
+    }
+
+    .foot {
+        position: absolute;
+        left: 0;
+        bottom: -265%;
+        width: 100%;
+
+    }
+}
